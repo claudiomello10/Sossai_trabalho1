@@ -1,6 +1,9 @@
 name: Python application test
 
-on: [push]
+on: 
+  push:
+    branches: [ API ]
+
 
 jobs:
   test:
@@ -20,3 +23,4 @@ jobs:
     - name: Run pytest
       run: |
         pytest
+
