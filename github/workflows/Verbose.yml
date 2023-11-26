@@ -1,6 +1,9 @@
-name: Python application test with unittest
+name: Python application test Verbose
 
-on: [push]
+on: 
+  push:
+    branches:
+      - Verbose
 
 jobs:
   test:
