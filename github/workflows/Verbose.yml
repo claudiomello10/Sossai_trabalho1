@@ -1,8 +1,9 @@
-name: Python application test
+name: Python application test Verbose
 
 on: 
   push:
-    branches: [ Verbose]
+    branches:
+      - Verbose
 
 jobs:
   test:

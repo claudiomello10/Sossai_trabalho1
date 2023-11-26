@@ -1,8 +1,9 @@
-name: Python application test
+name: Python application test API
 
 on: 
   push:
-    branches: [ API ]
+    branches:
+      - API
 
 
 jobs:
